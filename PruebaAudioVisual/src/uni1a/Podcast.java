@@ -1,6 +1,5 @@
 package uni1a;
 
-//Subclase Podcast que extiende de ContenidoAudiovisual
 public class Podcast extends ContenidoAudiovisual {
 private String tema;
 private String nombreCanal;

@@ -1,14 +1,13 @@
 package uni1a;
 
-//Subclase Videojuego que extiende de ContenidoAudiovisual
 public class Videojuego extends ContenidoAudiovisual {
 private String tema;
-private String developer;
+private String desarrollador;
 
-public Videojuego(String titulo, int duracionEnMinutos, String genero, String tema, String developer) {
+public Videojuego(String titulo, int duracionEnMinutos, String genero, String tema, String desarrollador) {
 	super(titulo, duracionEnMinutos, genero);
     this.tema = tema;
-    this.developer = developer;
+    this.desarrollador = desarrollador;
 }
 
 public String getTema() {
@@ -19,12 +18,12 @@ public void setTema(String tema) {
     this.tema = tema;
 }
 
-public String getDeveloper() {
-    return developer;
+public String getDesarrollador() {
+    return desarrollador;
 }
 
-public void setDeveloper(String developer) {
-    this.developer = developer;
+public void setdesarrollador(String desarrollador) {
+    this.desarrollador = desarrollador;
 }
  
 @Override
@@ -35,7 +34,7 @@ public void mostrarDetalles() {
     System.out.println("Duración en minutos: " + getDuracionEnMinutos());
     System.out.println("Género: " + getGenero());
     System.out.println("Tema: " + getTema());
-    System.out.println("Desarrollador del Videojuego: " + getDeveloper());
+    System.out.println("Desarrollador del Videojuego: " + getDesarrollador());
     System.out.println();
  	}
 }
