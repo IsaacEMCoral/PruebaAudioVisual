@@ -22,7 +22,7 @@ public String getDesarrollador() {
     return desarrollador;
 }
 
-public void setdesarrollador(String desarrollador) {
+public void setDesarrollador(String desarrollador) {
     this.desarrollador = desarrollador;
 }
  
